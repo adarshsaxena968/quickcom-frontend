@@ -35,6 +35,9 @@
     "sweetalert2": "^11.12.3",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -58,8 +61,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "ajv": "^7.2.4"
   }
 }
