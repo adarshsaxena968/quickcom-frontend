@@ -10,14 +10,13 @@ import CartDisplayPage from "./components/userinterface/mycart/CartDisplayPage";
 import Otp from "./components/userinterface/signinpage/Otp";
 import SetUp from "./components/userinterface/signinpage/SetUp";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
+import { Navigate } from "react-router-dom";
 function App() {
   return (
     <div >
       <Router>
         <Routes>
           <Route path="/" element={<Navigate to="/homepage" />} />
-
           <Route element={<AdminLogin />} path="/adminlogin"></Route>
           <Route element={<DashBoard />} path="/dashboard/*"></Route>
           <Route element={<HomePage />} path="/homepage"></Route>
