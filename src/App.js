@@ -16,6 +16,8 @@ function App() {
     <div >
       <Router>
         <Routes>
+          <Route path="/" element={<Navigate to="/homepage" />} />
+
           <Route element={<AdminLogin />} path="/adminlogin"></Route>
           <Route element={<DashBoard />} path="/dashboard/*"></Route>
           <Route element={<HomePage />} path="/homepage"></Route>
@@ -26,8 +28,6 @@ function App() {
           <Route element={<CartDisplayPage />} path="/cartdisplaypage"></Route>
           <Route element={<Otp />} path="/otp"></Route>
           <Route element={<SetUp />} path="/setup"></Route>
-
-
         </Routes>
       </Router>
 
