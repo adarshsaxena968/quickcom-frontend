@@ -6,7 +6,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fontsource/roboto": "^5.0.13",
-    "@material-table/core": "^6.4.4",
+    "@material-table/core": "6.4.4",
     "@mui/icons-material": "^5.16.2",
     "@mui/lab": "^5.0.0-alpha.172",
     "@mui/material": "^5.16.7",
@@ -16,6 +16,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.12.0",
+    "ajv-keywords": "^5.1.0",
     "axios": "^1.7.2",
     "html-react-parser": "^5.1.18",
     "material-ui-popup-state": "^5.3.1",
@@ -36,7 +38,7 @@
     "web-vitals": "^2.1.4"
   },
   "engines": {
-"node": "24.x"
+    "node": ">=18 <=20"
   },
   "scripts": {
     "start": "react-scripts start",
